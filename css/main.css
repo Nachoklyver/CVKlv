@@ -3495,6 +3495,8 @@ h6 {
   font-size: 2.5rem;
 }
 
+
+
 @media (max-width: 991px) {
   .sectionHeading.-sm .sectionHeading__title {
     font-size: 2.375rem;
