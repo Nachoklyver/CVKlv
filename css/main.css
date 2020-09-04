@@ -3634,14 +3634,14 @@ body.preloader-visible .preloader__progress {
 }
 
 .preloader__bg {
-  pointer-events: auto;
+  /* pointer-events: auto; */
   height: 100%;
   width: 100%;
-  background-color: var(--bg-dark-4);
-  box-shadow: 0 0 1.25rem rgba(0, 0, 0, 0.12);
+  background-color: rgba(0, 0, 0);
+  /* box-shadow: 0 0 1.25rem rgba(0, 0, 0); */
   will-change: transform;
   transform-origin: bottom;
-  transform: scaleY(0);
+  /* transform: scaleY(0); */
 }
 
 .preloader__progress {
@@ -3652,7 +3652,7 @@ body.preloader-visible .preloader__progress {
   align-items: center;
   width: 3.5rem;
   height: 3.5rem;
-  background-color: #FFFFFF;
+  background-color: rgba(0, 0, 0);;
   opacity: 0;
   -webkit-mask-image: var(--preloader-image);
   -webkit-mask-size: contain;
@@ -3670,7 +3670,7 @@ body.preloader-visible .preloader__progress {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: var(--accent-color);
+  background-color: rgba(0, 0, 0);;
   transform-origin: bottom;
   transform: scaleY(0);
 }
@@ -12458,8 +12458,8 @@ html.full-page-slider body {
 	top:50%;
 	left:50%;
 	transform:translate(-50%,-50%);
-	background:#000;
-	filter: blur(10px) contrast(20);
+	background:rgba(0, 0, 0);;
+	filter: blur(7px) contrast(20);
 }
 .blob-1,.blob-2{
 	width:70px;
