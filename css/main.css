@@ -12452,14 +12452,14 @@ html.full-page-slider body {
 /* Loader */
 
 .centered{
-	width:400px;
-	height:400px;
+	width:300px;
+	height:300px;
 	position:absolute;
 	top:50%;
 	left:50%;
 	transform:translate(-50%,-50%);
-	background:rgba(0, 0, 0);;
-	filter: blur(7px) contrast(20);
+	background:rgba(0, 0, 0);
+	filter: blur(19px) contrast(80);
 }
 .blob-1,.blob-2{
 	width:70px;
