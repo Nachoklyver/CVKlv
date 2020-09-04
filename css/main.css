@@ -3634,14 +3634,14 @@ body.preloader-visible .preloader__progress {
 }
 
 .preloader__bg {
-  /* pointer-events: auto; */
+  pointer-events: auto;
   height: 100%;
   width: 100%;
   background-color: rgba(0, 0, 0);
-  /* box-shadow: 0 0 1.25rem rgba(0, 0, 0); */
+  box-shadow: 0 0 1.25rem rgba(0, 0, 0);
   will-change: transform;
   transform-origin: bottom;
-  /* transform: scaleY(0); */
+  transform: scaleY(0);
 }
 
 .preloader__progress {
@@ -3652,7 +3652,7 @@ body.preloader-visible .preloader__progress {
   align-items: center;
   width: 3.5rem;
   height: 3.5rem;
-  background-color: rgba(0, 0, 0);;
+  /* background-color: rgba(0, 0, 0);; */
   opacity: 0;
   -webkit-mask-image: var(--preloader-image);
   -webkit-mask-size: contain;
@@ -12452,14 +12452,14 @@ html.full-page-slider body {
 /* Loader */
 
 .centered{
-	width:300px;
-	height:300px;
+	width:400px;
+	height:400px;
 	position:absolute;
 	top:50%;
 	left:50%;
 	transform:translate(-50%,-50%);
-	background:rgba(0, 0, 0);
-	filter: blur(19px) contrast(80);
+	/* background:rgba(0, 0, 0); */
+	filter: blur(3px) contrast(10);
 }
 .blob-1,.blob-2{
 	width:70px;
