@@ -12467,7 +12467,7 @@ html.full-page-slider body {
 	width:70px;
 	height:70px;
 	position:absolute;
-	background:#FF002E;
+	background:#b8b8b8;
 	border-radius:50%;
 	top:50%;left:50%;
 	transform:translate(-50%,-50%);
@@ -12479,7 +12479,7 @@ html.full-page-slider body {
 .blob-2{
 	left:80%;
 	animation:osc-r 2.5s ease infinite;
-	background:#f5f6f8;
+	background:#FAFAFA;
 }
 @keyframes osc-l{
 	0%{left:20%;}
